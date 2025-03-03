@@ -6,7 +6,7 @@ import FirmIntro from "../components/FirmIntro";
 import Values from "../components/Values";
 
 function Home() {
-  const iconUrl = import.meta.env.API_URL;
+  const iconUrl = import.meta.env.VITE_API_URL;
   const { fields, lawyers, timeSlots } = useLoaderData();
 
   return (

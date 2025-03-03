@@ -9,7 +9,7 @@ function Lawyers() {
   const [activeButton, setActiveButton] = useState(null); // État pour suivre le bouton actif
   const [activeAllButton, setActiveAllButton] = useState(true); // État pour suivre le bouton "Tout" actif
 
-  const imgUrl = import.meta.env.API_URL;
+  const imgUrl = import.meta.env.VITE_API_URL;
 
   const allFields = lawyers.map((lawyer) => lawyer.field_name);
   const fields = [...new Set(allFields)];

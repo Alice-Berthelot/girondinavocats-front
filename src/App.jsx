@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
+  console.log(import.meta.env.VITE_API_URL);
+
   return (
     <main>
       <NavBar />
